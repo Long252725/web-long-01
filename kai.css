@@ -1,0 +1,297 @@
+.slide1 {
+    background: url(https://phunugioi.com/wp-content/uploads/2020/03/hinh-anh-anime-girl.jpg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ab {
+    position: relative;
+    width: 1365px;
+    height: 150px;
+    display: flex;
+    overflow-x: auto ;
+    scroll-snap-type: x mandatory;
+
+
+}
+
+.anh {
+    scroll-snap-align: start;
+    min-width: 1366px;
+    background-size: 100%;
+}
+.anh1 {
+    background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/297878454/original/17ded8f5afc04027744f949c0e8ea1227d9c228f/make-a-anime-banner-thumbnail-discord-and-more.png) -100px ;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}   
+.anh2 {
+    background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/297878454/original/17ded8f5afc04027744f949c0e8ea1227d9c228f/make-a-anime-banner-thumbnail-discord-and-more.png) -100px -670px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.anh3 {
+    background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/297878454/original/17ded8f5afc04027744f949c0e8ea1227d9c228f/make-a-anime-banner-thumbnail-discord-and-more.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login {
+    background: url(https://c.wallhere.com/photos/78/3f/FeelsBadMan_Pepe_meme_memes-43635.png!d) no-repeat;
+    background-size: 100%;
+    height: 240px;
+    max-width: 430px;
+    border: 2px outset rgb(184, 176, 176);
+    margin-top: 80px;
+    border-radius: 5px;
+    margin-left: 240px;
+    box-shadow: 0 0 40px 10px rgb(255, 255, 255);
+}
+
+.l1 {    color: white;}
+.ll {
+
+    position: relative;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 290px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgb(87, 75, 75);
+
+}   
+.button:hover {
+    animation: butt 0.1s linear forwards;
+}
+@keyframes butt {
+    from {}
+    to {
+        color: white;
+        background-color: rgb(12, 2, 2);
+        transform: scale(1.05);
+    }
+}
+.credit {
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.548);
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+.tb {
+    padding: 10px 20px;
+    width: 300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.616);
+    border: 1px solid black;
+    position: absolute;
+    right: 60px;
+    bottom: 150px;
+    display: flex;
+}
+.t1 {
+    width: 150px;
+    height: 100px;
+}
+.anh6 {
+    background: url(https://catscanman.net/wp-content/uploads/2023/02/meme-meo-khoc-like-1024x1024.jpg);
+    background-size: 100%;
+    width: 150px;
+    height: 140px;
+    float: left;
+}
+input:focus {
+    border-bottom: 2px solid rgb(50, 127, 215);
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    resize: both;
+
+}
+.theloai {
+    position: fixed;
+    width: 200px;
+    height: 620px;
+    background: url(https://thcs-thptlongphu.edu.vn/wp-content/uploads/2023/03/hinh-nen-mau-hong-dep2b252812529.jpg) -100080px 0;
+    border-radius: 0 20px 20px 0 ;
+    border-right: 5px solid rgb(202, 180, 180);
+
+}
+.avarta {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: url(https://mega.com.vn/media/news/2306_hinh-nen-anime-nu-cho-dien-thoai1.jpg) -9px 0;
+    background-size: 130%;
+    margin: 30px 20px;
+    border: 5px outset pink;
+
+}
+.chuavarta {
+    cursor: pointer;
+    position: absolute;
+    top: 104px;
+    left: 13px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.chuavarta:hover {
+    transform: scale(1.1);
+}
+.logout {
+    padding: 7px 13px;
+    border-radius: 10px;
+    background: white;
+    top: 47px;
+    right: 19px;
+    position: absolute;
+    border: 5px outset pink ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(196, 13, 43);
+}
+.logout:hover {
+    transform: translate(0px,1px);
+    opacity: 0.8;
+}
+ul {
+    position: absolute;
+    padding: 0;
+    background-color: rgb(255, 138, 230);
+    width: 100%;
+    border-radius: 5px;
+
+}
+li {
+    cursor: pointer;
+    background-color: white;
+    list-style-type: none;
+    position: relative;
+    display: block;
+    padding: 16px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    border-radius: 0 5px 0 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li:hover {
+    opacity: 0.8;
+}
+.silde {
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    background: url(https://png.pngtree.com/background/20210711/original/pngtree-polka-dots-background-pink-picture-image_1164333.jpg);
+    background-size: 10%;
+}
+.search {
+    border-radius: 20px ;
+    width: 500px;
+    height: 40px;
+    padding: 0 20px;
+    position: fixed;
+    left: 550px;
+    top: 40px;
+    
+
+}
+.research {
+    left: 500px;
+    top: 37px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1sky2Kac9HV06xLxtVrnekYHGbvxCNSFSg&usqp=CAU);
+    background-size: 100%;
+    width: 45px;
+    height: 45px ;
+    position: fixed;
+    border-radius: 100%;
+    cursor: pointer;
+
+
+}
+.research:hover {
+    opacity: 0.9;
+    transform: translate(0px, 2px);
+
+}
+.mainbody {
+    width: 950px;
+    height: 1300px;
+    position: absolute;
+    background: white;
+    left: 300px;
+    top: 140px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.truyen {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 2px outset pink;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px pink;
+    cursor: pointer;
+
+}
+.truyen:hover {
+    transform: translate(0px, 2px);
+    background: rgb(255, 237, 248);
+}
+.anhtruyen {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: url(https://news.meeycdn.net/uploads/images/2022/11/07/anh-anime-top-10-ung-dung-chuyen-anh-thanh-tranh-ve-anime-9-1667791563.jpg);
+    background-size: 100%;
+    left: 24px;
+    top: 20px;
+    border-radius: 10px;
+}
+.noidungtruyen {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 24px;
+    bottom: 14px;
+    border-radius: 10px;
+    border: 2px outset rgb(250, 179, 191);
+}
+.teen {
+    width: 230px;
+    height: 28px;
+    position: absolute;
+    top: 10px;
+    left: 10px ;
+    font-size: 17px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif                                     ;
+}
+.noidung {
+    width: 230px;
+    height: 43px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px ;
+}
+.anhtruyen-1 {
+    
+}
